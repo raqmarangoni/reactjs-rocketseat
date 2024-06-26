@@ -1,6 +1,6 @@
 import { Header } from './components/Header'
 import { Post } from './Post'
-import './styles.css'
+import './global.css'
 
 export function App() {
   return (
@@ -8,7 +8,6 @@ export function App() {
       <Header>
         
       </Header>
-
       <Post
         author="Raquel Rodrigues"
         content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, asperiores eveniet? Deserunt iure ab natus magnam laborum. Dolorem harum ullam vel quia ipsa, incidunt commodi ipsum, dolore maiores eveniet repudiandae."
